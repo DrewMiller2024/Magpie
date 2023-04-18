@@ -60,11 +60,11 @@ public class Magpie2
             {
                 response = "Hello! How are you?";
             }
-            else if (statement.indexOf("Y") >= 0) {
-                response = "";
+            else if (statement.indexOf("food") >= 0) {
+                response = "I love food! ";
             }
             else if (statement.indexOf("Z") >= 0) {
-                response = "";
+                response = "Amazing positivity!";
             }
             else
             {
