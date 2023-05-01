@@ -27,7 +27,7 @@ public class StringExplorer
         System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
 
         int position2 = sample.indexOf("The", 3);
-        System.out.println(position2);
+        System.out.println("sample.indexof(\"The\", 3) = " + position2);
     }
 
 }
