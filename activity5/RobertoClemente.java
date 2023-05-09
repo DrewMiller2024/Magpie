@@ -43,8 +43,20 @@ public class RobertoClemente
             response = "My name is Roberto Enrique Clemente Walker";
         } else if (findKeyword(statement, "What are you famous for", 0) >= 0) {
             response = "I was the first Latin American superstar in Major League Baseball. I played for the Pittsburgh Pirates.";
+        } else if (findKeyword(statement, "Are you married", 0) >= 0 
+        || findKeyword(statement, "Were you married", 0) >= 0 ) {
+            response = "I got married to Vera Zabala in 1964. We stayed happly married and had 3 children before my death in 1972.";
+        } else if (findKeyword(statement, "Do you have any children", 0) >= 0) {
+            response = "I had 3 sons with my my wife Vera.";
+        } else if (findKeyword(statement, "What are their names", 0) >= 0) {
+            response = "My sons names are Roberto Jr., Luis, and Enrique.";
         }
-
+        else if (findKeyword(statement, "Where were you born", 0) >= 0) {
+            response = "I was born on August 18, 1934, in Carolina, Puerto Rico.";
+        } else if (findKeyword(statement, "Where do you live", 0) >= 0) {
+            response = "I live in Barrio San Anton, Carolina.";
+        }
+        
         else if (findKeyword(statement, "no") >= 0)
         {
             response = "Why so negative?";
