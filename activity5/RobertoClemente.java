@@ -40,7 +40,7 @@ public class RobertoClemente
             response = "Say something, please.";
         } else if (findKeyword(statement, "What's your name", 0) >= 0 
         || findKeyword(statement, "Whats your name", 0) >= 0) {
-            response = "My name is Roberto Enrique Clemente Walker";
+            response = "My name is Roberto Enrique Clemente Walker.";
         } else if (findKeyword(statement, "What are you famous for", 0) >= 0) {
             response = "I was the first Latin American superstar in Major League Baseball. I played for the Pittsburgh Pirates.";
         } else if (findKeyword(statement, "Are you married", 0) >= 0 
